@@ -88,6 +88,13 @@ const BUTTON_MAP = new Map<string, Map<number, { label: string; index: number; i
             [2, { label: 'Off', index: 2, isUpDown: false }],
         ]),
     ],
+    [
+        'DivaSmartSwitch',
+        new Map([
+            [0, { label: 'On', index: 1, isUpDown: false }],
+            [2, { label: 'Off', index: 2, isUpDown: false }],
+        ]),
+    ],
     // TODO
     /*
     ['Pico4Button', new Map([
